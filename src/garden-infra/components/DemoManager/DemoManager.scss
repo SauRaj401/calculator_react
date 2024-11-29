@@ -1,0 +1,36 @@
+.simple-page-layout {
+  .demo-part {
+    flex: 1;
+    display: flex;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+  }
+
+  .info-part {
+    flex: 1;
+
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    background-color: var(--bg-color2);
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 16px;
+    border-top: 1px solid lightgray;
+
+
+    h4 {
+      border-bottom: 1px solid black;
+      font-size: 18;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+.draggable-sidebar-container {
+  background-color: var(--bg-color2);
+  display: flex;
+  height: calc(100vh - 50px);
+  z-index: 999;
+
+
+  .container-in {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+
+    .btn-drag {
+      background-color: transparent;
+      border: none;
+      position: fixed;
+      cursor: ew-resize;
+      margin: 0px 0px;
+      padding: 0px;
+      width: 20px;
+      height: 100%;
+      border: none
+    }
+
+    .btn-drag-dragging {
+      background-color: transparent;
+      border:none;
+      border-right: 2px solid #e1e1e5;
+      position: fixed;
+      cursor: ew-resize;
+      margin: 0px 0px;
+      padding: 0px;
+      width: 20px;
+      height: 100%;
+    }
+  }
+}
+  
+  
+
+
+

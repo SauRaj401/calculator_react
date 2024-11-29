@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/constants/*"],
+      "@garden/*": ["src/garden-infra/*"],
+      "@samples/*": ["src/samples/*"]
+    }
+  },
+  "include": ["src"]
+}

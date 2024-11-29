@@ -1,0 +1,36 @@
+.simple-page-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  .head-part {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .head-left-part {
+
+    }
+
+    .head-right-part {
+      display: flex;
+    }
+  }
+
+  .content-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  
+    
+    @media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
+      flex-direction: row;
+    }
+
+
+  }
+}

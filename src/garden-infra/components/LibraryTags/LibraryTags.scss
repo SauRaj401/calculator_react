@@ -1,0 +1,16 @@
+.libraries-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px 10px;
+
+  .library {
+    padding: 3px 5px;
+    margin: 2px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

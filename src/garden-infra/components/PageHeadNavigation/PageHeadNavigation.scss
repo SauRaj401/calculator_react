@@ -1,0 +1,57 @@
+.head-part{
+  display: flex;
+  justify-content: space-between;
+
+  .head-left-part{
+    display: flex;
+    align-items: center;
+  }
+
+  .head-right-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+}
+
+
+.btn-icon {
+  padding: 6px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+
+.info-icon {
+  padding: 6px;
+  margin: 4px;
+  cursor: pointer;
+  color: darkslategray;
+
+  &.opened {
+    color: #2a24d7;
+  }
+
+  &.closed {
+    color: darkred;
+  }
+}
+
+
+
+
+
+.theme-icon {
+  padding: 6px;
+  margin: 4px;
+  cursor: pointer;
+
+  &.light {
+    color: #d68635;
+  }
+
+  &.dark {
+    color: #fff;
+  }
+}
